@@ -6,7 +6,7 @@ body:
     id: version
     attributes:
       label: Sunshine version
-      placeholder: e.g. 0.11.6
+      placeholder: e.g. 0.12.0
     validations:
       required: true
   - type: textarea
