@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest an improvement to Sunshine.
+title: "[Suggestion] "
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would you like to improve?
+      description: Explain the problem and how your suggestion would help.
+    validations:
+      required: true

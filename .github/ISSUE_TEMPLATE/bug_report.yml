@@ -1,0 +1,30 @@
+name: Bug report
+description: Something isn't working as expected.
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Sunshine version
+      placeholder: e.g. 0.11.6
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe what went wrong and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      description: Include your Windows version and League region. For skin issues, mention the injection method and affected skin.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshots or support logs
+      description: "Optional: attach a screenshot or use Settings → Support → Save support logs. Review logs before sharing. Do not attach passwords or account backup files."
