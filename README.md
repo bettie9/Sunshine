@@ -15,7 +15,7 @@
 
 ## Get started
 
-1. Download `Sunshine_<version>_x64-setup.exe` from the [latest release](https://github.com/Yimikami/Sunshine/releases/latest). The current release is [v0.14.5](https://github.com/Yimikami/Sunshine/releases/tag/v0.14.5).
+1. Download `Sunshine_<version>_x64-setup.exe` from the [latest release](https://github.com/Yimikami/Sunshine/releases/latest).
 2. Install Sunshine, then open League of Legends.
 3. In **Settings → Game setup**, use **Auto-detect** or select your League installation.
 4. Open **Skin Changer**, choose your skins, then use **Apply & Inject** before your match.
@@ -28,11 +28,17 @@ Sunshine's interface supports **English, Turkish, Simplified Chinese, German, Fr
 
 ## What you can do
 
-- **Skin library** — browse champion skins, chromas, League Classic skins, emotes and wards. Choose stages and alternate appearances from a skin's **Forms** list.
-- **Custom skins** — browse the marketplace or import your own mods, with automatic fixes for supported outdated skins.
-- **Saved accounts** — organize accounts with favorites and notes, view rank history, and create password-protected backups.
+- **Skin library** — browse champion skins, chromas, League Classic skins, emotes and wards. Choose stages and alternate appearances from a skin's **Forms** list, and review your selected skins in the Dashboard carousel.
+- **Custom skins** — browse the marketplace or import `.fantome` and `.modpkg` files. Custom skins show their own cover or loading-screen artwork when available.
+- **Skin repair** — use **Repair skin** to check and fix supported problems, or enable automatic repair for imports and marketplace downloads. Your original files are kept.
+- **3D previews** — inspect installed skins, play animations and preview supported effects before applying them.
+- **Workshop** — start from a champion and skin of your choice, an installed custom skin or a skin file. Edit textures, colors, icons, loading-screen artwork and supported effects, show or hide model parts, then export with your own name and description. **Advanced Workshop** adds more detailed model, HUD and effect controls.
+- **AI and Blender support** — connect a compatible AI assistant through **Settings → MCP** to work on Workshop projects. Optional Blender setup lets you edit compatible models externally and bring them back.
+- **Party** — share skin selections over encrypted peer-to-peer (P2P) connections, with relay fallback when needed. Optional automatic sync downloads supported catalog skins and keeps selections in sync. Custom skins must be installed locally.
+- **TFT (experimental)** — browse supported companions and apply their appearances directly from Sunshine.
+- **Saved accounts** — sign in through the official Riot Client, organize accounts with favorites and notes, view rank history, and create password-protected backups. Complete any CAPTCHA or two-factor verification in Riot Client.
 - **Automation** — configure auto-accept, champion picks and bans, including preferences for individual accounts.
-- **Lobby tools** — open player lookups during champion select.
+- **Lobby tools** — look up players during champion select and live games.
 - **Personalization** — customize the theme and choose whether to show your activity on Discord.
 
 Skins, forms, emotes and wards come from the [Sunshine skin collection](https://github.com/bettie9/LeagueSkins). Sunshine installs and updates **LTK Patcher** automatically. For normal champion skins, keep the champion's default skin selected in League. If tool setup needs attention, use **Settings → Support → Check tool updates**.
@@ -41,7 +47,7 @@ Skins, forms, emotes and wards come from the [Sunshine skin collection](https://
 
 Join [Discord](https://discord.gg/8zsgZUxVgW) or [open an issue](https://github.com/Yimikami/Sunshine/issues/new/choose). Include your Sunshine version and what went wrong. Save support logs from **Settings → Support → Save support logs** and review them before sharing.
 
-For a broken skin package or a missing skin or form, use the [LeagueSkins issue forms](https://github.com/bettie9/LeagueSkins/issues/new/choose). See the [release notes](https://github.com/Yimikami/Sunshine/releases) for updates.
+For a broken skin package or a missing skin or form, use the [LeagueSkins issue forms](https://github.com/bettie9/LeagueSkins/issues/new/choose). See the [release notes](https://github.com/Yimikami/Sunshine/releases) for updates, or open **Settings → Support → Release notes** to read the notes for your installed version.
 
 <details>
 <summary>Uninstall</summary>
